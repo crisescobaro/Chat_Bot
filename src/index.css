@@ -1,0 +1,80 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+html,
+body {
+  height: 100%;
+  font-family: system-ui;
+  background-color: black;
+}
+
+.formFieldInput:-webkit-autofill,
+.formFieldInput:-webkit-autofill:hover,
+.formFieldInput:-webkit-autofill:focus,
+.formFieldInput:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #333 !important;
+  background: #f0f0f0 !important; /* Cambia a cualquier color que prefieras */
+  color: #333 !important; /* Cambia a cualquier color que prefieras */
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+input[type="text"] {
+  padding: 0.625rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.yellow-row {
+  background-color: rgba(255, 255, 0, 0.678) !important;
+}
+
+.yellow-row:hover {
+  background-color: yellow !important;
+}
+
+.orange-row {
+  background-color: rgba(255, 166, 0, 0.747) !important;
+}
+
+.orange-row:hover {
+  background-color: orange !important;
+}
+
+.red-row {
+  background-color: rgba(255, 0, 0, 0.733) !important;
+  color: #f0f0f0;
+}
+
+.red-row:hover {
+  background-color: red !important;
+}
+
+.default-row {
+  background-color: white;
+}
